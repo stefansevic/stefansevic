@@ -19,9 +19,11 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 * Conducted deep-packet analysis using **Wireshark** to identify and investigate network-level intrusions.
 * Documented findings in a professional **Incident Report**, including attack vector identification and mitigation strategies.
 
-### [Secure Distributed Music Streaming Platform](https://github.com/stefansevic)
-* Implemented core security features for a Spotify-clone project, focusing on system integrity and user protection.
-* Key features: **RBAC** (Role-Based Access Control), **DoS Mitigation** via rate-limiting, and secure data handling (Hashing/Salting).
+### 🎧 [Secure Distributed Music Streaming Platform](https://github.com/annazecevic/spotify)
+* Developed as a collaborative group project at **FTN Novi Sad**.
+* Served as the **Security Lead**, responsible for architecting and implementing defensive measures.
+* Key security features: **RBAC** for access control, **Rate Limiting** to prevent DoS, and strict input validation for **XSS/SQLi** prevention.
+* Enforced **HTTPS** and secure **Hash & Salt** mechanisms for protecting user credentials.
 
 ---
 
