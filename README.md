@@ -27,6 +27,11 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
     * **DoS Mitigation** via server-side rate-limiting.
     * Strict input validation to prevent **XSS and SQL Injection**.
     * Enforced **HTTPS** and secure **Hash & Salt** mechanisms for user credentials.
+ 
+### [New-Now: Location & Event Management System](https://github.com/svt-kvt-ftn/2025-svt-kva-stefansevic)
+* Developed a full-stack decision-support platform using **Spring Boot 3.3** and **Angular 20**, implementing **JWT-based authentication** and **Role-Based Access Control (RBAC)**.
+* Engineered secure administrative workflows for manual account approval and file uploads, emphasizing logic integrity and backend validation.
+* Integrated **Spring Security** and **JPA** to ensure data persistence and protect REST endpoints, following secure development lifecycles for the SVT/KVA curriculum.
 
 ---
 
@@ -47,8 +52,10 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 
 ---
 
-## Connect with Me
-* **LinkedIn:** [stefan-šević](https://www.linkedin.com/in/stefan-%C5%A1evi%C4%87/)
-* **Email:** [seva002.ns@gmail.com](mailto:seva002.ns@gmail.com)
+### Connect with me
+* **Location**: Novi Sad, Serbia
+* **LinkedIn**: [Stefan Šević](https://www.linkedin.com/in/stefan-%C5%A1evi%C4%87/)
+* **Email**: [seva002.ns@gmail.com](mailto:seva002.ns@gmail.com)
+* **Phone**: +381 65 2143027
 
 ---
