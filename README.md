@@ -15,9 +15,10 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 
 ## Featured Projects
 
-### [Network Traffic Analysis: Incident Report](https://github.com/stefansevic/analysis)
-* Conducted deep-packet analysis using **Wireshark** to identify and investigate network-level intrusions.
-* Documented findings in a professional **Incident Report**, including attack vector identification and mitigation strategies.
+### [Network Traffic Analysis: Incident Report](https://github.com/stefansevic/Network-Traffic-Analysis-Incident-Report)
+* Performed deep-packet analysis using **Wireshark** to identify and reconstruct a **Brute-Force attack** targeting HTTP Basic Authentication.
+* Extracted compromised credentials from plaintext traffic and ensured forensic evidence integrity through **SHA-256 cryptographic hashing**.
+* Authored a comprehensive **Incident Report** detailing the attack lifecycle and proposing strategic mitigations like **TLS/HTTPS implementation** and **Rate Limiting**.
 
 ### [Secure Distributed Music Streaming Platform](https://github.com/annazecevic/spotify) `[Work in Progress]`
 * **Status:** Active development as a collaborative group project at **FTN Novi Sad**.
