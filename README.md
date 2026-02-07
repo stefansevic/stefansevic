@@ -28,7 +28,7 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
     * Strict input validation to prevent **XSS and SQL Injection**.
     * Enforced **HTTPS** and secure **Hash & Salt** mechanisms for user credentials.
  
-### [New-Now: Location & Event Management System](https://github.com/svt-kvt-ftn/2025-svt-kva-stefansevic)
+### [New-Now: Location & Event Management System](https://github.com/stefansevic/New-Now)
 * Developed a full-stack decision-support platform using **Spring Boot 3.3** and **Angular 20**, implementing **JWT-based authentication** and **Role-Based Access Control (RBAC)**.
 * Engineered secure administrative workflows for manual account approval and file uploads, emphasizing logic integrity and backend validation.
 * Integrated **Spring Security** and **JPA** to ensure data persistence and protect REST endpoints, following secure development lifecycles for the SVT/KVA curriculum.
