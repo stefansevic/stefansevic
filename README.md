@@ -33,7 +33,7 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 * Engineered secure administrative workflows for manual account approval and file uploads, emphasizing logic integrity and backend validation.
 * Integrated **Spring Security** and **JPA** to ensure data persistence and protect REST endpoints, following secure development lifecycles for the SVT/KVA curriculum.
 
-### [Configuration Management API](https://github.com/stefansevic/ARS)
+### [Configuration Management API](https://github.com/arsicc05/ars)
 * Developed a lightweight REST API in **Go** for centralized configuration management and label-based filtering.
 * Implemented a **security-oriented Rate Limiter** using the token-bucket algorithm to mitigate resource abuse and ensure system availability.
 * Utilized **Docker** containerization to isolate the API environment, reducing the host's attack surface and simplifying secure infrastructure management.
