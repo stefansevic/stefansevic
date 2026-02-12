@@ -20,13 +20,12 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 * Extracted compromised credentials from plaintext traffic and ensured forensic evidence integrity through **SHA-256 cryptographic hashing**.
 * Authored a comprehensive **Incident Report** detailing the attack lifecycle and proposing strategic mitigations like **TLS/HTTPS implementation** and **Rate Limiting**.
 
-### [Secure Distributed Music Streaming Platform](https://github.com/annazecevic/spotify) `[Work in Progress]`
-* **Status:** Active development as a collaborative group project at **FTN Novi Sad**.
-* **Role:** Serving as the **Security Lead**, responsible for architecting and implementing defensive measures.
-* **Current Implementation:** * **RBAC** for access control and mandatory request authorization.
-    * **DoS Mitigation** via server-side rate-limiting.
-    * Strict input validation to prevent **XSS and SQL Injection**.
-    * Enforced **HTTPS** and secure **Hash & Salt** mechanisms for user credentials.
+### [Secure Distributed Music Streaming Platform](https://github.com/annazecevic/spotify)
+* **Role: Security Lead** responsible for the end-to-end defensive architecture of a distributed, microservices-based system.
+* **Security-First Architecture:** Implemented a **Defense-in-Depth** strategy featuring **Nginx auth_request** subrequests for validation, mandatory **RBAC** middleware, and **HSTS** with **TLS 1.3**.
+* **Advanced Defensive Logic:** Integrated **BCrypt** hashing with constant-time comparisons, multi-layer **Rate Limiting** (Nginx + Go), and strict input sanitization to neutralize OWASP Top 10 risks like XSS and Injection.
+* **Security Auditing & Mitigation:** Conducted systematic **SAST** and dependency scans using **gosec** and **govulncheck**, successfully identifying and patching critical vulnerabilities, including **HTTP/2 Continuation flood (GO-2024-2687)** and JWT-related memory exhaustion vectors.
+* **SOC Readiness:** Architected the system for centralized logging to support real-time threat detection, alerting, and incident response, aligned with modern Security Operations Center (SOC) standards.
  
 ### [Location & Event Management System](https://github.com/stefansevic/New-Now)
 * Developed a full-stack decision-support platform using **Spring Boot 3.3** and **Angular 20**, implementing **JWT-based authentication** and **Role-Based Access Control (RBAC)**.
