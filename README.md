@@ -21,11 +21,11 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 * Authored a comprehensive **Incident Report** detailing the attack lifecycle and proposing strategic mitigations like **TLS/HTTPS implementation** and **Rate Limiting**.
 
 ### [Secure Distributed Music Streaming Platform](https://github.com/annazecevic/spotify)
-* **Role: Security Lead** responsible for the end-to-end defensive architecture of a distributed, microservices-based system.
-* **Security-First Architecture:** Implemented a **Defense-in-Depth** strategy featuring **Nginx auth_request** subrequests for validation, mandatory **RBAC** middleware, and **HSTS** with **TLS 1.3**.
-* **Advanced Defensive Logic:** Integrated **BCrypt** hashing with constant-time comparisons, multi-layer **Rate Limiting** (Nginx + Go), and strict input sanitization to neutralize OWASP Top 10 risks like XSS and Injection.
-* **Security Auditing & Mitigation:** Conducted systematic **SAST** and dependency scans using **gosec** and **govulncheck**, successfully identifying and patching critical vulnerabilities, including **HTTP/2 Continuation flood (GO-2024-2687)** and JWT-related memory exhaustion vectors.
-* **SOC Readiness:** Architected the system for centralized logging to support real-time threat detection, alerting, and incident response, aligned with modern Security Operations Center (SOC) standards.
+- **Role: Security Lead** — designed end-to-end defensive architecture for a Go/Gin microservices system behind an **Nginx reverse proxy** (single public entry point).
+- **AuthN/AuthZ:** enforced **HTTPS-only (TLS 1.2/1.3 + HSTS)**, **JWT authentication**, and mandatory **RBAC** middleware across services.
+- **Availability & Input Security:** implemented multi-layer **rate limiting** (Nginx + app) and strict server-side **validation + sanitization/output encoding** aligned with **OWASP Top 10**.
+- **Security Auditing (SAST):** ran **SonarQube** scans per service and produced a remediation plan (reduce complexity, remove duplicated literals, add tests/coverage targets).
+
  
 ### [Location & Event Management System](https://github.com/stefansevic/New-Now)
 * Developed a full-stack decision-support platform using **Spring Boot 3.3** and **Angular 20**, implementing **JWT-based authentication** and **Role-Based Access Control (RBAC)**.
