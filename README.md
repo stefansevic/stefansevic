@@ -37,11 +37,11 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 * Implemented a **security-oriented Rate Limiter** using the token-bucket algorithm to mitigate resource abuse and ensure system availability.
 * Utilized **Docker** containerization to isolate the API environment, reducing the host's attack surface and simplifying secure infrastructure management.
 
-###  [Event Management System: Rust Microservices](https://github.com/stefansevic/event-management-rust)
-* Engineered a high-performance microservices ecosystem using **Rust (Axum)** and **Python**, featuring an **API Gateway** and five decoupled backend services.
-* Implemented **JWT-based authentication** and **Role-Based Access Control (RBAC)** to secure sensitive administrative workflows and event registration logic.
-* Containerized the entire infrastructure using **Docker** and **PostgreSQL**, ensuring strict service isolation and managing inter-service communication via internal networking.
-
+### [Event Management System: Rust Microservices](https://github.com/stefansevic/event-management-rust)
+* Designed and implemented a production-style **microservices architecture** using **Rust (Axum, Tokio, SQLx)** and a dedicated **Python (Flask) QR service**, orchestrated behind a centralized **API Gateway**.
+* Built secure authentication and authorization flows with **JWT-based sessions** and **Role-Based Access Control (RBAC)**, enforcing strict separation between user and admin operations.
+* Implemented event lifecycle management with **capacity validation, ticket generation, and QR code issuance**, including inter-service communication via internal Docker networking.
+* Containerized the full stack using **Docker & Docker Compose**, provisioning isolated **PostgreSQL databases per service** to ensure clear bounded contexts and data separation.
 ---
 
 ## Technical Skills & Tools
