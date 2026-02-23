@@ -49,14 +49,14 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 | Category | Skills / Tools |
 | :--- | :--- |
 | **Cybersecurity** | Threat Detection, Log Analysis, Network Defense, OWASP Principles |
-| **Tools** | Wireshark, Docker, Linux (CLI), Postman, IntelliJ IDEA, VS Code |
-| **Programming** | Java, C#, Python, Go, SQL |
+| **Tools** | Wireshark, Docker, Linux (CLI), VS Code, SonarQube |
+| **Programming** | Java, C#, Python, Go, SQL, Rust |
 
 ---
 
 ## Education
 * **Faculty of Technical Sciences (FTN), Novi Sad**
-    * **Field:** Applied Software and Information Technologies (Vocational Studies, 182 ECTS)
+    * **Field:** Applied Software and Information Technologies
     * **Status:** Final-year student (2023 – Present)
 
 ---
