@@ -20,8 +20,8 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 * Extracted compromised credentials from plaintext traffic and ensured forensic evidence integrity through **SHA-256 cryptographic hashing**.
 * Authored a comprehensive **Incident Report** detailing the attack lifecycle and proposing strategic mitigations like **TLS/HTTPS implementation** and **Rate Limiting**.
 
-### [Secure Distributed Music Streaming Platform](https://github.com/annazecevic/spotify)
-- **Role: Security Lead** — designed end-to-end defensive architecture for a Go/Gin microservices system behind an **Nginx reverse proxy** (single public entry point).
+### [Secure Distributed Music Streaming Platform]([https://github.com/annazecevic/spotify](https://github.com/stefansevic/distributed-music-platform))
+- Designed end-to-end defensive architecture for a Go/Gin microservices system behind an **Nginx reverse proxy** (single public entry point).
 - **AuthN/AuthZ:** enforced **HTTPS-only (TLS 1.2/1.3 + HSTS)**, **JWT authentication**, and mandatory **RBAC** middleware across services.
 - **Availability & Input Security:** implemented multi-layer **rate limiting** (Nginx + app) and strict server-side **validation + sanitization/output encoding** aligned with **OWASP Top 10**.
 - **Security Auditing (SAST):** ran **SonarQube** scans per service and produced a remediation plan (reduce complexity, remove duplicated literals, add tests/coverage targets).
