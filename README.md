@@ -8,12 +8,16 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 
 ## Certifications
 * **CompTIA Security+ ce**
-    * **Candidate ID:** COMP001022976752
     * **Verification:** [Verify via Credly Digital Badge](https://www.credly.com/badges/87435066-4eb5-4841-9cd2-1b7cda290e86/public_url)
 
 ---
 
 ## Featured Projects
+
+### [SIEM Platform: Web Attack Detection](https://github.com/stefansevic/siem-platform)
+* Built a modular SIEM-like platform with five **FastAPI microservices** orchestrated via **Docker Compose**, ingesting heterogeneous logs from **Nginx** and a demo webapp, normalizing them to **Elastic Common Schema (ECS)**, and persisting to **Postgres** + **Elasticsearch**.
+* Implemented three **sliding-window correlation rules** (brute-force, directory scanning, account takeover) over **Redis Streams**, with deterministic stream-time semantics and a dedicated Alert Manager performing time-based incident deduplication.
+* Validated detection accuracy across **76 experimental runs** spanning 12 attack scenarios; computed Precision/Recall/F1 per rule and documented edge cases (NAT false positives, sliding-window jitter) as basis for future work in layered detection and **UEBA**.
 
 ### [Network Traffic Analysis: Incident Report](https://github.com/stefansevic/Network-Traffic-Analysis-Incident-Report)
 * Performed deep-packet analysis using **Wireshark** to identify and reconstruct a **Brute-Force attack** targeting HTTP Basic Authentication.
