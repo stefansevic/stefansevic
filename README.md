@@ -48,12 +48,13 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 * Containerized the full stack using **Docker & Docker Compose**, provisioning isolated **PostgreSQL databases per service** to ensure clear bounded contexts and data separation.
 ---
 
-## Technical Skills & Tools
-
 | Category | Skills / Tools |
 | :--- | :--- |
-| **Cybersecurity** | Threat Detection, Log Analysis, Network Defense, OWASP Principles |
-| **Tools** | Wireshark, Docker, Linux (CLI), VS Code, SonarQube |
+| **Cybersecurity** | Threat Detection, Log Analysis, Network Defense, SIEM, ECS Schema, Correlation Rules |
+| **Backend** | FastAPI, Spring Boot, Go/Gin, REST APIs, Microservices |
+| **Frontend** | React, TypeScript, Angular |
+| **Data & Messaging** | PostgreSQL, Redis Streams, Elasticsearch |
+| **Tools** | Wireshark, Docker, Docker Compose, Nginx, Linux (CLI), VS Code, SonarQube, Git |
 | **Programming** | Java, C#, Python, Go, SQL, Rust |
 
 ---
