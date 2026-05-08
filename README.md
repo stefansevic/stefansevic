@@ -50,11 +50,10 @@ I am a final-year student at the Faculty of Technical Sciences in Novi Sad, full
 
 | Category | Skills / Tools |
 | :--- | :--- |
-| **Cybersecurity** | Threat Detection, Log Analysis, Network Defense, SIEM, ECS Schema, Correlation Rules |
-| **Backend** | FastAPI, Spring Boot, Go/Gin, REST APIs, Microservices |
-| **Frontend** | React, TypeScript, Angular |
-| **Data & Messaging** | PostgreSQL, Redis Streams, Elasticsearch |
-| **Tools** | Wireshark, Docker, Docker Compose, Nginx, Linux (CLI), VS Code, SonarQube, Git |
+| **Cybersecurity** | Threat Detection, Log Analysis, SIEM, ECS, OWASP |
+| **Backend** | FastAPI, Spring Boot, Go/Gin, REST, Microservices |
+| **Data** | PostgreSQL, Redis Streams, Elasticsearch |
+| **Tools** | Docker, Nginx, Wireshark, Git, SonarQube, Linux |
 | **Programming** | Java, C#, Python, Go, SQL, Rust |
 
 ---
